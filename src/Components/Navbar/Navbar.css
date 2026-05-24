@@ -1,0 +1,10 @@
+.navbar{
+    width: 100%;
+    padding: 20px 6%;
+    display: flex;
+    justy-content: space-between;
+    position: fixed;
+    font: size 14px;
+    color:#e5e5e5;
+    backgroung-image: linear-gradient(18);
+}

@@ -7,6 +7,7 @@ import play_icon from '../../assets/play_icon.png'
 import info_icon from '../../assets/info_icon.png'
 import TitileCards from '../../Components/TitileCards/TitileCards'
 import { LuBadgeInfo } from "react-icons/lu";
+import Footer from '../../Components/Footer/Footer'
 
  
 function Home() {
@@ -37,11 +38,15 @@ function Home() {
     </div>
     {/* //! more cards (Second Section ) */}
         <div className="more-cards">
-        <TitileCards/>
-        <TitileCards/>
-        <TitileCards/> 
+        <TitileCards title={"Blockbuster Movies"}/>
+        <TitileCards title={"Only On Netflix"}/>
+        <TitileCards title={"Upcoming"}/> 
+        <TitileCards title={"Top Pics For You"}/> 
        
         
+      </div>
+      <div>
+        <Footer/>
       </div>
       </>
   )
